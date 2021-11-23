@@ -1,0 +1,201 @@
+@import "variables.less";
+@import "mixins.less";
+@import "fonts.less";
+
+.partner-dashboard-sec {
+    padding: 1.5rem !important;
+}
+
+.g-bg-one {
+    background: rgb(139, 40, 95);
+    background: linear-gradient(90deg, rgba(139, 40, 95, 1) 0%, rgba(189, 51, 100, 1) 35%, rgba(241, 109, 97, 1) 100%);
+}
+
+.g-bg-two {
+    background: rgb(46, 79, 124);
+    background: linear-gradient(90deg, rgba(46, 79, 124, 1) 0%, rgba(116, 55, 184, 1) 35%, rgba(211, 91, 241, 1) 100%);
+}
+
+.g-bg-three {
+    background: rgb(142, 143, 226);
+    background: linear-gradient(90deg, rgba(142, 143, 226, 1) 0%, rgba(203, 46, 151, 1) 35%, rgba(242, 132, 43, 1) 100%);
+}
+
+.g-bg-four {
+    background: rgb(129, 50, 178);
+    background: linear-gradient(90deg, rgba(129, 50, 178, 1) 0%, rgba(73, 101, 174, 1) 35%, rgba(67, 157, 181, 1) 100%);
+}
+
+.g-bg-five {
+    background: rgb(39, 109, 121);
+    background: linear-gradient(90deg, rgba(39, 109, 121, 1) 0%, rgba(51, 195, 142, 1) 35%, rgba(80, 230, 141, 1) 100%);
+}
+
+.g-bg-six {
+    background: rgb(66, 53, 79);
+    background: linear-gradient(90deg, rgba(66, 53, 79, 1) 0%, rgba(139, 55, 115, 1) 35%, rgba(224, 63, 133, 1) 100%);
+}
+
+.g-bg-seven {
+    background: rgb(85, 46, 113);
+    background: linear-gradient(90deg, rgba(85, 46, 113, 1) 0%, rgba(54, 93, 198, 1) 35%, rgba(89, 119, 251, 1) 100%);
+}
+
+.g-bg-eight {
+    background: rgb(236, 92, 101);
+    background: linear-gradient(90deg, rgba(236, 92, 101, 1) 0%, rgba(223, 117, 43, 1) 35%, rgba(247, 184, 53, 1) 100%);
+}
+
+.g-bg-nine {
+    background: rgb(240, 117, 73);
+    background: linear-gradient(90deg, rgba(240, 117, 73, 1) 0%, rgba(224, 94, 158, 1) 35%, rgba(213, 82, 188, 1) 100%);
+}
+
+.row-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    grid-auto-rows: minmax(120px, auto);
+
+    @media screen and (max-width:767px) {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    >div {
+        border: 1px solid #dddddd;
+        padding: 0em 1rem;
+        border-radius: 0px;
+        transition: .6s;
+        display: grid;
+        align-items: center;
+        border-left: 8px;
+        border-style: solid;
+        border-left-color: #fff;
+        -webkit-box-shadow: 0 1px 10px 5px rgba(179, 179, 179, .2);
+        box-shadow: 0 1px 10px 5px rgba(179, 179, 179, .2);
+
+        &:hover {
+            visibility: visible;
+            opacity: 1;
+            /* box-shadow: 0 10px 30px 11px rgba(0, 0, 0, 25%); */
+            transition: .3s;
+            z-index: 110;
+            transform: scale(1.08);
+            -webkit-box-shadow: 0 1px 10px 5px rgba(95, 95, 95, .2);
+            box-shadow: 0 1px 10px 5px rgba(95, 95, 95, .2);
+            border-left-color: #000;
+
+            .logo-in {
+
+                transition: .5s;
+
+                &:before {
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 9999px;
+                    border: 3px dashed #9a9a9a !important;
+                    background-color: #fff;
+                    content: '';
+                    position: absolute;
+                    z-index: -1;
+                    transition: .5s;
+                    -webkit-animation: spin 3s infinite linear;
+                    top: -8px;
+                    left: -8px;
+                }
+            }
+
+            h2 {
+                color: #fff !important;
+                transition: .5s;
+            }
+        }
+
+        .wrap-in {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+            grid-gap: .5rem;
+
+            >div {
+                border: 0px solid #dddddd;
+                padding: 0em;
+                display: grid;
+                align-items: center;
+
+                h3 {
+                    margin: 0px 0px 0px 0px;
+                    padding: 0px 0px 0px 0px;
+                    font-size: 1rem;
+                    color: #fff;
+                    font-weight: 700;
+                }
+
+                h2 {
+                    margin: 0px 0px 0px 0px;
+                    padding: 0px 0px 0px 0px;
+                    font-size: 1.5rem;
+                    color: #ffdd7d;
+                    font-weight: bold;
+                    transition: .5s;
+                    text-shadow: 0 2px 3px #202020;
+                }
+
+                .logo-in {
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 9999px;
+                    margin: auto;
+                    background-color: #fff;
+                    border: 3px solid #dedede;
+                    transition: .5s;
+                    position: relative;
+                    -webkit-box-shadow: 0 2px 5px 3px rgba(44, 45, 45, .3);
+                    box-shadow: 0 2px 5px 3px rgba(44, 45, 45, .3);
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        padding: .90rem;
+                    }
+
+
+                }
+            }
+        }
+
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+    }
+}
+
+/* Edit Mall Organiser Modal */
+/* .edit-profile-model {
+    .modal{
+        .modal-dialog {
+            .modal-content{
+                border-radius: 0px !important;
+                .modal-header{
+                    .modal-title {
+
+                    }
+                }
+                .modal-body {
+
+                }
+                .modal-footer {
+
+                }
+            }
+        }
+    }
+}*/
