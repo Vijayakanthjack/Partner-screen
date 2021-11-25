@@ -38,7 +38,7 @@
 
                     <div class="row-wrapper">
                         <div class="g-bg-one">
-                            <a href="#">
+                            <a href="modify-mall.php">
                                 <div class="wrap-in">
                                     <div>
                                         <h3>Modify Mall</h3>

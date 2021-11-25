@@ -49,11 +49,15 @@
             <section class="content">
                 <div class="container-fluid">
                     <!-- Small boxes (Stat box) -->
-                    <div class="d-flex back-bg" >
-                       0000
+                    <div class="d-flex back-bg">
+                        <form method="post">
+                            <div id="mytextarea">Hello, World!</div>
+                        </form>
+
+
                     </div>
-                        <!-- /.row (main row) -->
-                    </div><!-- /.container-fluid -->
+                    <!-- /.row (main row) -->
+                </div><!-- /.container-fluid -->
             </section>
             <!-- /.content -->
         </div>

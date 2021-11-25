@@ -22,7 +22,10 @@
            with font-awesome or any other icon font library -->
                 <li class="nav-item">
                     <a href="index.php" class="nav-link active">
-                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <!-- <i class="nav-icon fas fa-tachometer-alt"></i> -->
+                        <div class="img-b">
+                            <img src="dist/img/side-menu-icons/icon000001.png" alt="" class="img-fluid">
+                        </div>
                         <p>
                             Dashboard
                         </p>
@@ -30,15 +33,29 @@
                 </li>
                 <li class="nav-item">
                     <a href="operations.php" class="nav-link">
-                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <div class="img-b">
+                            <img src="dist/img/side-menu-icons/icon000002.png" alt="" class="img-fluid">
+                        </div>
                         <p>
                             Operations
                         </p>
                     </a>
                 </li>
                 <li class="nav-item">
+                    <a href="products.php" class="nav-link">
+                        <div class="img-b">
+                            <img src="dist/img/side-menu-icons/icon000004.png" alt="" class="img-fluid">
+                        </div>
+                        <p>
+                            Products
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a href="edit_profile.php" class="nav-link">
-                        <i class="nav-icon far fa-user-circle"></i>
+                        <div class="img-b">
+                            <img src="dist/img/side-menu-icons/icon000003.png" alt="" class="img-fluid">
+                        </div>
                         <p>
                             Profile
                         </p>
@@ -46,7 +63,9 @@
                 </li>
                 <li class="nav-item">
                     <a href="modify-mall.php" class="nav-link">
-                        <i class="nav-icon fas fa-chart-area"></i>
+                        <div class="img-b">
+                            <img src="dist/img/side-menu-icons/icon000005.png" alt="" class="img-fluid">
+                        </div>
                         <p>
                             Modify Mall
                         </p>
@@ -54,7 +73,9 @@
                 </li>
                 <li class="nav-item">
                     <a href="sales-report.php" class="nav-link">
-                        <i class="nav-icon fas fa-sign-out-alt"></i>
+                        <div class="img-b">
+                            <img src="dist/img/side-menu-icons/icon000006.png" alt="" class="img-fluid">
+                        </div>
                         <p>
                             Sales Report
                         </p>
@@ -62,7 +83,9 @@
                 </li>
                 <li class="nav-item">
                     <a href="create-shop.php" class="nav-link">
-                        <i class="nav-icon fas fa-sign-out-alt"></i>
+                        <div class="img-b">
+                            <img src="dist/img/side-menu-icons/icon000007.png" alt="" class="img-fluid">
+                        </div>
                         <p>
                             Create/Modify Shops
                         </p>
@@ -70,7 +93,9 @@
                 </li>
                 <li class="nav-item">
                     <a href="modify-service.php" class="nav-link">
-                        <i class="nav-icon fas fa-sign-out-alt"></i>
+                        <div class="img-b">
+                            <img src="dist/img/side-menu-icons/icon000008.png" alt="" class="img-fluid">
+                        </div>
                         <p>
                             Create/Modify Services
                         </p>
@@ -78,7 +103,9 @@
                 </li>
                 <li class="nav-item">
                     <a href="#document-analysis" class="nav-link">
-                        <i class="nav-icon fas fa-sign-out-alt"></i>
+                        <div class="img-b">
+                            <img src="dist/img/side-menu-icons/icon000009.png" alt="" class="img-fluid">
+                        </div>
                         <p>
                             Logout
                         </p>
