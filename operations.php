@@ -46,7 +46,8 @@
                                     </div>
                                     <div>
                                         <div class="logo-in">
-                                            <img src="dist/img/partner-dashboard/icon001.png" class="img-fluid" alt="User Image">
+                                            <img src="dist/img/partner-dashboard/icon001.png" class="img-fluid"
+                                                alt="User Image">
                                         </div>
                                     </div>
                                 </div>
@@ -54,7 +55,7 @@
                         </div>
 
                         <div class="g-bg-two">
-                            <a href="#">
+                            <a href="modify-shops.php">
                                 <div class="wrap-in">
                                     <div>
                                         <h3>Create/Modify Shops</h3>
@@ -62,7 +63,8 @@
                                     </div>
                                     <div>
                                         <div class="logo-in">
-                                            <img src="dist/img/partner-dashboard/icon002.png" class="img-fluid" alt="User Image">
+                                            <img src="dist/img/partner-dashboard/icon002.png" class="img-fluid"
+                                                alt="User Image">
                                         </div>
                                     </div>
                                 </div>
@@ -70,7 +72,7 @@
                         </div>
 
                         <div class="g-bg-three">
-                            <a href="#">
+                            <a href="create-modify-services.php">
                                 <div class="wrap-in">
                                     <div>
                                         <h3>Create/Modify Services</h3>
@@ -78,7 +80,8 @@
                                     </div>
                                     <div>
                                         <div class="logo-in">
-                                            <img src="dist/img/partner-dashboard/icon003.png" class="img-fluid" alt="User Image">
+                                            <img src="dist/img/partner-dashboard/icon003.png" class="img-fluid"
+                                                alt="User Image">
                                         </div>
                                     </div>
                                 </div>
@@ -86,7 +89,7 @@
                         </div>
 
                         <div class="g-bg-four">
-                            <a href="#">
+                            <a href="sell-all-shops.php">
                                 <div class="wrap-in">
                                     <div>
                                         <h3>Sell All Shops</h3>
@@ -94,7 +97,8 @@
                                     </div>
                                     <div>
                                         <div class="logo-in">
-                                            <img src="dist/img/partner-dashboard/icon004.png" class="img-fluid" alt="User Image">
+                                            <img src="dist/img/partner-dashboard/icon004.png" class="img-fluid"
+                                                alt="User Image">
                                         </div>
                                     </div>
                                 </div>
@@ -102,7 +106,7 @@
                         </div>
 
                         <div class="g-bg-five">
-                            <a href="#">
+                            <a href="sell-all-service.php">
                                 <div class="wrap-in">
                                     <div>
                                         <h3>See All Service</h3>
@@ -110,7 +114,8 @@
                                     </div>
                                     <div>
                                         <div class="logo-in">
-                                            <img src="dist/img/partner-dashboard/icon005.png" class="img-fluid" alt="User Image">
+                                            <img src="dist/img/partner-dashboard/icon005.png" class="img-fluid"
+                                                alt="User Image">
                                         </div>
                                     </div>
                                 </div>
@@ -118,7 +123,7 @@
                         </div>
 
                         <div class="g-bg-six">
-                            <a href="#">
+                            <a href="sell-all-mall-advertisement.php">
                                 <div class="wrap-in">
                                     <div>
                                         <h3>See All Mall Advertisement</h3>
@@ -126,7 +131,8 @@
                                     </div>
                                     <div>
                                         <div class="logo-in">
-                                            <img src="dist/img/partner-dashboard/icon006.png" class="img-fluid" alt="User Image">
+                                            <img src="dist/img/partner-dashboard/icon006.png" class="img-fluid"
+                                                alt="User Image">
                                         </div>
                                     </div>
                                 </div>
@@ -134,7 +140,7 @@
                         </div>
 
                         <div class="g-bg-seven">
-                            <a href="#">
+                            <a href="create-your-advertisement.php">
                                 <div class="wrap-in">
                                     <div>
                                         <h3>Create Your Advertisement</h3>
@@ -142,7 +148,8 @@
                                     </div>
                                     <div>
                                         <div class="logo-in">
-                                            <img src="dist/img/partner-dashboard/icon007.png" class="img-fluid" alt="User Image">
+                                            <img src="dist/img/partner-dashboard/icon007.png" class="img-fluid"
+                                                alt="User Image">
                                         </div>
                                     </div>
                                 </div>
@@ -150,7 +157,7 @@
                         </div>
 
                         <div class="g-bg-eight">
-                            <a href="#">
+                            <a href="live-visitors.php">
                                 <div class="wrap-in">
                                     <div>
                                         <h3>Live Visitors</h3>
@@ -158,7 +165,8 @@
                                     </div>
                                     <div>
                                         <div class="logo-in">
-                                            <img src="dist/img/partner-dashboard/icon008.png" class="img-fluid" alt="User Image">
+                                            <img src="dist/img/partner-dashboard/icon008.png" class="img-fluid"
+                                                alt="User Image">
                                         </div>
                                     </div>
                                 </div>
@@ -166,7 +174,7 @@
                         </div>
 
                         <div class="g-bg-nine">
-                            <a href="#">
+                            <a href="dorrent-disitors.php">
                                 <div class="wrap-in">
                                     <div>
                                         <h3>Dorrent Visitors</h3>
@@ -174,7 +182,62 @@
                                     </div>
                                     <div>
                                         <div class="logo-in">
-                                            <img src="dist/img/partner-dashboard/icon009.png" class="img-fluid" alt="User Image">
+                                            <img src="dist/img/partner-dashboard/icon009.png" class="img-fluid"
+                                                alt="User Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="g-bg-nine">
+                            <a href="running-shops.php">
+                                <div class="wrap-in">
+                                    <div>
+                                        <h3>Running Shops
+
+                                        </h3>
+                                        <h2>N/A</h2>
+                                    </div>
+                                    <div>
+                                        <div class="logo-in">
+                                            <img src="dist/img/partner-dashboard/icon009.png" class="img-fluid"
+                                                alt="User Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="g-bg-six">
+                            <a href="unsold-shops.php">
+                                <div class="wrap-in">
+                                    <div>
+                                        <h3>Unsold Shops</h3>
+                                        <h2>N/A</h2>
+                                    </div>
+                                    <div>
+                                        <div class="logo-in">
+                                            <img src="dist/img/partner-dashboard/icon006.png" class="img-fluid"
+                                                alt="User Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="g-bg-three">
+                            <a href="total-shops.php">
+                                <div class="wrap-in">
+                                    <div>
+                                        <h3>Total Shops</h3>
+                                        <h2>N/A</h2>
+                                    </div>
+                                    <div>
+                                        <div class="logo-in">
+                                            <img src="dist/img/partner-dashboard/icon003.png" class="img-fluid"
+                                                alt="User Image">
                                         </div>
                                     </div>
                                 </div>
